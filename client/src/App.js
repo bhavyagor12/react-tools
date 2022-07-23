@@ -7,7 +7,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Webcam from "./Components/Webcam";
+import Search from "./Components/Search";
 function App() {
   
 
@@ -17,7 +17,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Main/>} />
-      <Route path="webcam" element={<Webcam/>} />
+      <Route path="webcam" element={<Search/>} />
     </Routes>
   </BrowserRouter>
   
