@@ -8,6 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import Search from "./Components/Search";
+import Chart from "./Components/Charts/Chart";
 function App() {
   
 
@@ -17,7 +18,8 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Main/>} />
-      <Route path="webcam" element={<Search/>} />
+      <Route path="search" element={<Search/>} />
+      <Route path="chart" element={<Chart/>} />
     </Routes>
   </BrowserRouter>
   
